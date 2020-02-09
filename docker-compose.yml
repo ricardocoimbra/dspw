@@ -1,0 +1,7 @@
+php:
+    build: .
+    ports: 
+        - "88:80"
+        - "8443:443"
+    volumes: 
+        - ./app:/var/www/html
