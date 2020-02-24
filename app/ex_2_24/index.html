@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Compra</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <form action="#">
+    
+
+    <table>
+        <tr>
+            <td colspan="2"><p class="titulo">Formulário de Pedido Online</p></td>
+        </tr>
+        <tr>
+            <td>Nome:</td>
+            <td>
+                <input type="text" name="nome" id="nome" size="35" maxlength="35">
+            </td>
+        </tr>
+        <tr>
+            <td>Endereço:</td>
+            <td>
+                <input type="text" name="endereco" id="endereco" size="40" maxlength="40">
+            </td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td>
+                <input type="email" name="email" id="email" size="50" maxlength="50">
+            </td>
+        </tr>
+        <tr>
+            <td>Cidade:</td>
+            <td>
+                <input type="text" name="cidade" id="cidade" size="40" maxlength="40">
+            </td>
+        </tr>
+
+        <tr>
+            <td>UF:</td>
+            <td>
+                <select name="uf" id="uf" >
+                    <option value="1">AC</option>
+                    <option value="2">AL</option>
+                    <option value="3">AM</option>
+                    <option value="4">AP</option>
+                    <option value="5">BA</option>
+                    <option value="6">CE</option>
+                    <option value="7">DF</option>
+                    <option value="8">ES</option>
+                    <option value="9">GO</option>
+                    <option value="10">MA</option>
+                    <option value="11">MG</option>
+                    <option value="12">MS</option>
+                    <option value="13">MT</option>
+                    <option value="14">PA</option>
+                    <option value="15">PB</option>
+                    <option value="16">PE</option>
+                    <option value="17">PI</option>
+                    <option value="18">PR</option>
+                    <option value="19">RJ</option>
+                    <option value="20">RN</option>
+                    <option value="21">RO</option>
+                    <option value="22">RR</option>
+                    <option value="23">RS</option>
+                    <option value="24">SC</option>
+                    <option value="25">SE</option>
+                    <option value="26">SP</option>
+                    <option value="27">TO</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Data Nasc.:</td>
+            <td>
+                <input type="text" name="dia" id="dia" maxlength="2" size="2" >/
+                <input type="text" name="mes" id="mes" maxlength="2" size="2" >/
+                <input type="text" name="ano" id="ano" maxlength="4" size="4" >
+            </td>
+        </tr>
+
+<tr>
+    <td colspan="2"><p class="titulo">Dados de Compra</p></td>
+</tr>
+        <tr>
+            <td>Tipo de Pagto:</td>
+            <td>
+                <input type="radio" name="pagto" value="v">À Vista
+                <input type="radio" name="pagto" value="p">Pagto em 2x
+            </td>
+        </tr>
+        <tr>
+            <td>Produto:</td>
+            <td>
+                <select name="produto" id="produto">
+                    <option value="1">Mouse Microsoft</option>
+                    <option value="2">Caixa Acústica</option>
+                    <option value="3">Estabilizador</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Tipo de Pagto:</td>
+            <td>
+                <input type="radio" name="cor" value="branca">Branca
+                <input type="radio" name="cor" value="bege">Bege
+            </td>
+        </tr>
+        <tr>
+            <td><button type="submit">Enviar Pedido</button></td>
+            <td><button type="reset">Apagar</button></td>
+        </tr>
+    </table>
+    
+    
+</form>
+</body>
+
+</html>
